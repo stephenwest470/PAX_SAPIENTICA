@@ -1,0 +1,47 @@
+key	value	ja-JP
+#Time --------------------	#時間	--------------------------------------------------
+start_julian_day	1319309	シミュレーション開始日(ユリウス日) 前1101年
+steps_per_year	12	1年あたりのStepの数(step/年)
+output_step_frequency	120	何Stepおきに出力するか？(step)
+total_steps	13800	総ステップ数 (前1101年→西暦50年)
+num_iterations	5	シミュレーションの繰り返し回数 (GUI)
+immigration_start_steps	1801	渡来開始Step数目(step) (1801=前950年, 3601=前800年)
+immigration_end_steps	21600	渡来終了Step数目(step) (計測終了後)
+immigration_step_interval	1	渡来のステップ間隔 (step) 毎月
+init_lifespan_grace_period	180	初期化時の寿命までの最低Step間隔(step)
+#Space --------------------	#空間	--------------------------------------------------
+area	Honsyu	シミュレーションの対象範囲 (本州・四国・九州 X10496×Y10752)
+cell_group_length	256	集落をグループ分けする際の1グリッド辺の長さ(cell) 婚姻探索距離以上にする
+immigration_district_id	73	渡来地区ID
+land_key	district	陸地データのKey
+district_key	district	地区データのKey
+#Marriage --------------------	#婚姻	--------------------------------------------------
+maternal_residence_probability	0.5	母方居住婚になる確率 (1.0=妻方, 0.5=選択方, 0.0=夫方)
+marriage_search_range	160	婚姻探索距離(cell) 1cell≈125m (80=10km, 160=20km, 320=40km)
+female_marriageable_age_min	13	女性の最小婚姻可能年齢(歳)
+male_marriageable_age_min	17	男性の最小婚姻可能年齢(歳)
+female_marriageable_age_max	60	女性の最大婚姻可能年齢(歳)
+male_marriageable_age_max	70	男性の最大婚姻可能年齢(歳)
+marriage_file	Marriage.tsv	婚姻確率
+#Childbirth --------------------	#出産	--------------------------------------------------
+birth_interval	10	妊娠から出産までのStep間隔(step)
+hunter_gatherer_stillbirth_rate	0	狩猟採集死産率 (no effect)
+agricultural_stillbirth_rate	0	水田稲作死産率 (no effect)
+child_agriculture_priority	0.5	片親のみ農耕の場合の農耕文化継承率
+childbearing_age_min	15	出産の最小可能年齢(歳)
+childbearing_age_max	50	出産の最大可能年齢(歳)
+childbearing_file	Childbearing.tsv	出産確率
+life_span_file	LifeSpan.tsv	生命表 (狩猟採集CMR50% / 水田稲作CMR45%)
+#Movement --------------------	#移動	--------------------------------------------------
+max_hunter_gatherer_settlement_population	25	狩猟採集集落の最大人数(人)
+max_agricultural_settlement_population	80	水田稲作集落の最大人数(人)
+min_move_distance	1	最小移動距離(cell)
+max_move_distance	1600	最大移動距離(cell) 1cell≈125m (800=100km, 1600=200km, 3200=400km)
+move_probability	0.0014	月間集団移動確率
+ocean_cost	1.1	海上の通行コスト
+coast_cost	0.7	海岸の通行コスト
+land_cost	2.5	傾斜度0度の陸上の通行コスト
+move_redo	10	移動再試行回数
+move_method	astar	移動の手法(astar/random)
+move_astar_loop	8	A*を行うルート数
+move_astar_distance	128	A*を行うルート間隔

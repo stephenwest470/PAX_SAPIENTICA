@@ -1,0 +1,17 @@
+id	model	variable	value	base_value	description
+B	Yayoi-Sim-v2/B	base			Base model (基準の値): TFR 5.5/5.5, CMR49, 10 migrants/month
+C	Yayoi-Sim-v2/C	immigration_start_year	-800	-950	渡来開始年 800BC
+D	Yayoi-Sim-v2/D	immigrants_per_month	5	10	月間渡来人数 5人
+E	Yayoi-Sim-v2/E	immigrants_per_month	20	10	月間渡来人数 20人
+F	Yayoi-Sim-v2/F	maternal_residence_probability	1.0	0.5	婚姻居住形態 妻方
+G	Yayoi-Sim-v2/G	maternal_residence_probability	0.0	0.5	婚姻居住形態 夫方
+H	Yayoi-Sim-v2/H	marriage_distance_km	10	20	婚姻可能距離 <10km
+I	Yayoi-Sim-v2/I	marriage_distance_km	40	20	婚姻可能距離 <40km
+J	Yayoi-Sim-v2/J	move_probability_percent	0.14	0.21	月間集団移動 0.14%
+K	Yayoi-Sim-v2/K	move_probability_percent	0.42	0.21	月間集団移動 0.42%
+L	Yayoi-Sim-v2/L	move_distance_km	100	200	集団移動距離 <100km
+M	Yayoi-Sim-v2/M	move_distance_km	400	200	集団移動距離 <400km
+N	Yayoi-Sim-v2/N	agriculture_inheritance	0.25	0.5	農耕文化継承 25%
+O	Yayoi-Sim-v2/O	agriculture_inheritance	0.75	0.5	農耕文化継承 75%
+P	Yayoi-Sim-v2/P	farmer_tfr	5.75	5.5	合計特殊出生率 弥生 5.75 (縄文 5.5)
+Q	Yayoi-Sim-v2/Q	hunter_gatherer_tfr	5.75	5.5	合計特殊出生率 縄文 5.75 (弥生 5.5)

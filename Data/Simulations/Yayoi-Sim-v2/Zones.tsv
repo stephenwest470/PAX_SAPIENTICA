@@ -1,0 +1,6 @@
+level	key	ja-JP	districts	fujio_year	note
+1	north_kyushu	北部九州	6,7,8,9	-950	筑後 肥前 筑前 豊前
+2	tokai	東海	49,50,51,52	-600	尾張 参河 遠江 駿河
+3	kanto	関東	55,56,57,58,59,60,65,66	-200	相模 武蔵 下総 上総 安房 常陸 上野 下野
+4	south_tohoku	南東北	67,68,70	-200	福島 山形 宮城 (set to the Kanto date, 200 BC)
+5	north_tohoku	北東北	69,71,72	-380	秋田 岩手 青森
