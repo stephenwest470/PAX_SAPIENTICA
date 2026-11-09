@@ -53,4 +53,4 @@ ancestry; farming reaching northern Tohoku) and the farming-arrival zones in `Zo
    averaged videos: `python Scripts/ReplayAverages.py SimulationResults/Yayoi-Sim-v2`.
 
 Each run's seed is recorded in `SimulationResults/Yayoi-Sim-v2/<ID>/Seeds.tsv`. The outputs, seeds and videos
-used in the presentation are archived on Zenodo (see the presentation for the DOI).
+used in the presentation are archived on Zenodo: https://doi.org/10.5281/zenodo.24079792
