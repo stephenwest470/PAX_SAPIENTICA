@@ -37,8 +37,11 @@ Each variant changes one setting of B (see `Main.tsv`, `E.tsv`, `P.tsv`):
 | I | marriage radius 40 km | P | farmer TFR 5.75 |
 |   |   | Q | forager TFR 5.75 |
 
-Expected results for 50 CE are in `Expected.tsv` (1,031,843 people, Crema et al. 2024; 70% continental
-ancestry; farming reaching northern Tohoku) and the farming-arrival zones in `Zones.tsv` (Fujio 2009).
+Expected results for 50 CE are in `Expected.tsv` (1,031,843 people, Crema et al. 2024; 80% continental
+ancestry, the share of continental mtDNA haplogroups in Yayoi skeletal samples, n = 56; farming reaching
+northern Tohoku) and the farming-arrival zones in `Zones.tsv` (Fujio 2009: Kanto and southern Tohoku 300 BCE).
+The presentation counts a result as plausible within population 80–120% of expected, ancestry 70–90%,
+agriculture 80–100% and farming reaching northern Tohoku.
 
 ## Running
 

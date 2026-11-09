@@ -1,7 +1,7 @@
 key	value	note
 reference_model	B	Model the variants are tested against
 population	1031843	Expected population in AD 50: Crema et al. (2024)
-toraijin_ratio	0.70	Expected share of migrant-derived ancestry (paper 6.10)
+toraijin_ratio	0.80	Expected share of migrant-derived ancestry: continental mtDNA haplogroups in Yayoi skeletal samples (n = 56, PAX SAPIENTICA Data/Genomes); tolerance 0.70-0.90
 farming_level	5	Expected farming spread level: 5 = northern Tohoku (Fujio 2009)
 farming_threshold	0.5	Farmer share of a zone's population at which farming counts as having reached it
 study_districts	1-72	Districts counted (Honshu, Shikoku, Kyushu); excludes 73 toraijin_land and Hokkaido/Ryukyu
