@@ -1,4 +1,4 @@
-# Yayoi-Sim-v2: agricultural transition in Japan (CAA Australasia & Japan 2026)
+# Yaponesia2026: agricultural transition in Japan (CAA Australasia & Japan 2026)
 
 Model inputs for West, S. and Kasuga, H. (2026) "Simulating the Agricultural Transition in Japan:
 A Yayoi Period Application of an Open-Source Agent-Based Simulation GIS", CAA Australasia & Japan 2026.
@@ -46,11 +46,11 @@ ancestry; farming reaching northern Tohoku) and the farming-arrival zones in `Zo
 2. Put a `Config.tsv` in the repository root containing `asset_file` → `./` and run from the root.
 3. Run all models (5 runs each, as in the presentation):
    `powershell -File Scripts\SuperviseBatch.ps1` (seed base 20261105, population cap 5,000,000),
-   or directly `build\BatchSimulator\PAXS_BatchSimulator.exe batch Data/Simulations/Yayoi-Sim-v2/Batch.tsv --runs 5 --seed-base 20261105 --max-population 5000000 --out SimulationResults/Yayoi-Sim-v2`
+   or directly `build\BatchSimulator\PAXS_BatchSimulator.exe batch Data/Simulations/Yaponesia2026/Batch.tsv --runs 5 --seed-base 20261105 --max-population 5000000 --out SimulationResults/Yaponesia2026`
    (`Batch.tsv` lists all 16 models; the supervisor runs them in the phases `Main.tsv`, `P.tsv`, `E.tsv`
    to keep the two fastest-growing models from running in parallel).
-4. Summaries: `python Scripts/ProfileModels.py SimulationResults/Yayoi-Sim-v2`;
-   averaged videos: `python Scripts/ReplayAverages.py SimulationResults/Yayoi-Sim-v2`.
+4. Summaries: `python Scripts/ProfileModels.py SimulationResults/Yaponesia2026`;
+   averaged videos: `python Scripts/ReplayAverages.py SimulationResults/Yaponesia2026`.
 
-Each run's seed is recorded in `SimulationResults/Yayoi-Sim-v2/<ID>/Seeds.tsv`. The outputs, seeds and videos
+Each run's seed is recorded in `SimulationResults/Yaponesia2026/<ID>/Seeds.tsv`. The outputs, seeds and videos
 used in the presentation are archived on Zenodo: https://doi.org/10.5281/zenodo.24079792

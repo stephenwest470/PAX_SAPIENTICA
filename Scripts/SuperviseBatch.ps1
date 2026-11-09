@@ -1,12 +1,12 @@
-﻿# Unattended supervisor for the Yayoi-Sim-v2 replicate experiment.
+﻿# Unattended supervisor for the Yaponesia2026 replicate experiment.
 # - keeps Windows from idle-sleeping while it runs (SetThreadExecutionState; no settings are changed)
 # - runs the phases in order, retrying each until the runner reports nothing left to run
 # - kills a run whose log has not grown for $StallMinutes of awake time (the runner then redoes it with the same seed)
 # - runs the Table 1 analysis at the end
 param(
     [string]$Root = (Split-Path $PSScriptRoot -Parent),   # repository root (this script lives in Scripts/)
-    [string]$Out = "SimulationResults/Yayoi-Sim-v2",
-    [string]$Def = "Data/Simulations/Yayoi-Sim-v2",
+    [string]$Out = "SimulationResults/Yaponesia2026",
+    [string]$Def = "Data/Simulations/Yaponesia2026",
     [string]$SeedBase = "20261105",
     [string]$MaxPopulation = "5000000",
     [int]$StallMinutes = 45,

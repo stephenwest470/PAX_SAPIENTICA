@@ -10,7 +10,7 @@ The maps, colour scales, decade interpolation and calendar come from ReplaySimul
 videos look like the per-run replays. Only the calendar is drawn.
 
 Usage (from the repository root):
-  python Scripts/ReplayAverages.py SimulationResults/Yayoi-Sim-v2
+  python Scripts/ReplayAverages.py SimulationResults/Yaponesia2026
 Options: --models B,P  --modes population,subsistence,mtdna,snp  --fps 24  --scale 8  --jobs 3  --force  --lang en|ja
 Writes <batch>/Averages/<id>/Videos/<mode>.mp4 and <batch>/Averages/<id>/AverageDistrictTimeSeries.tsv
 (the averaged values behind the videos). Requires numpy, Pillow and ffmpeg on PATH.
@@ -156,7 +156,7 @@ def render_model(model_dir: Path, out_dir: Path, modes: list[str], fps: int, sca
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("batch", help="batch output folder, e.g. SimulationResults/Yayoi-Sim-v2")
+    parser.add_argument("batch", help="batch output folder, e.g. SimulationResults/Yaponesia2026")
     parser.add_argument("--models", default="", help="comma-separated model ids (default: all in Batch.tsv)")
     parser.add_argument("--modes", default=",".join(MODES))
     parser.add_argument("--fps", type=int, default=24)

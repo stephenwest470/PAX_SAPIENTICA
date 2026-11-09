@@ -1,12 +1,12 @@
-"""Per-model profiles (mean ± SD over replicates) for a batch output folder, e.g. SimulationResults/Yayoi-Sim-v2.
+"""Per-model profiles (mean ± SD over replicates) for a batch output folder, e.g. SimulationResults/Yaponesia2026.
 
-Usage: python Scripts/ProfileModels.py SimulationResults/Yayoi-Sim-v2
+Usage: python Scripts/ProfileModels.py SimulationResults/Yaponesia2026
 Writes Profiles.tsv (one row per model) and Profiles.md (Table 1 layout plus per-model profiles) into that folder.
 Targets come from the folder's Expected.tsv / Zones.tsv (copied there by the batch runner).
 """
 import csv, glob, math, os, re, statistics as st, sys
 
-out = os.path.abspath(sys.argv[1] if len(sys.argv) > 1 else "SimulationResults/Yayoi-Sim-v2")
+out = os.path.abspath(sys.argv[1] if len(sys.argv) > 1 else "SimulationResults/Yaponesia2026")
 rd = lambda p: list(csv.DictReader(open(p, encoding="utf-8-sig"), delimiter="\t"))
 kv = lambda p: {r[0]: r[1] for r in csv.reader(open(p, encoding="utf-8-sig"), delimiter="\t") if len(r) >= 2}
 batch = rd(os.path.join(out, "Batch.tsv"))

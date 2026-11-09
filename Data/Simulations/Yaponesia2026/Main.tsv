@@ -1,0 +1,15 @@
+id	model	variable	value	base_value	description
+B	Yaponesia2026/B	base			Base model (基準の値): TFR 5.5/5.5, CMR49, 10 migrants/month
+C	Yaponesia2026/C	immigration_start_year	-800	-950	渡来開始年 800BC
+D	Yaponesia2026/D	immigrants_per_month	5	10	月間渡来人数 5人
+F	Yaponesia2026/F	maternal_residence_probability	1.0	0.5	婚姻居住形態 妻方
+G	Yaponesia2026/G	maternal_residence_probability	0.0	0.5	婚姻居住形態 夫方
+H	Yaponesia2026/H	marriage_distance_km	10	20	婚姻可能距離 <10km
+I	Yaponesia2026/I	marriage_distance_km	40	20	婚姻可能距離 <40km
+J	Yaponesia2026/J	move_probability_percent	0.14	0.21	月間集団移動 0.14%
+K	Yaponesia2026/K	move_probability_percent	0.42	0.21	月間集団移動 0.42%
+L	Yaponesia2026/L	move_distance_km	100	200	集団移動距離 <100km
+M	Yaponesia2026/M	move_distance_km	400	200	集団移動距離 <400km
+N	Yaponesia2026/N	agriculture_inheritance	0.25	0.5	農耕文化継承 25%
+O	Yaponesia2026/O	agriculture_inheritance	0.75	0.5	農耕文化継承 75%
+Q	Yaponesia2026/Q	hunter_gatherer_tfr	5.75	5.5	合計特殊出生率 縄文 5.75 (弥生 5.5)

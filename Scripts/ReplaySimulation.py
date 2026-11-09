@@ -17,8 +17,8 @@ Two sources, chosen automatically per run:
                            Language.txt), so each province is filled with its value instead.
 
 Usage (from the repository root):
-  python Scripts/ReplaySimulation.py SimulationResults/Yayoi-Sim            # every complete run in a batch
-  python Scripts/ReplaySimulation.py SimulationResults/Yayoi-Sim/B/2026-...  # one run
+  python Scripts/ReplaySimulation.py SimulationResults/Yaponesia2026            # every complete run in a batch
+  python Scripts/ReplaySimulation.py SimulationResults/Yaponesia2026/B/2026-...  # one run
 Options: --modes population,snp  --fps 24  --scale 8  --force  --jobs 2  --source auto|snapshots|districts  --lang en|ja
 Videos are written to <run>/Videos/<mode>.mp4. Requires numpy, Pillow and ffmpeg on PATH.
 """

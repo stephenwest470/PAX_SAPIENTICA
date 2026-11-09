@@ -1,5 +1,5 @@
 # Live progress of a PAXS_BatchSimulator batch: one line per model plus recent batch events.
-# Usage (from the repository root):  .\Scripts\WatchBatch.ps1 SimulationResults/Yayoi-Sim [-Runs 5] [-Seconds 30]
+# Usage (from the repository root):  .\Scripts\WatchBatch.ps1 SimulationResults/Yaponesia2026 [-Runs 5] [-Seconds 30]
 param(
     [Parameter(Mandatory = $true)][string]$BatchDir,
     [int]$Runs = 5,
